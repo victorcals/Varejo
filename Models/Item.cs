@@ -1,5 +1,5 @@
 using System;
-namespace Varejo.Models
+namespace Atacadista.Models
 {
     public class Item
     {

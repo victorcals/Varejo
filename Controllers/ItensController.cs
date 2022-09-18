@@ -1,11 +1,11 @@
-﻿using Varejo.Models;
+﻿using Atacadista.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 //colocar onde está na pasta
-namespace Varejo.Controller
+namespace Atacadista.Controller
 {
     [ApiController]
-    [Route("api/user")]
+    [Route("api/item")]
     public class UserControler : ControllerBase
     {
 
