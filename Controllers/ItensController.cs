@@ -1,11 +1,12 @@
-﻿using Atacadista.Models;
+﻿using Varejo.Models;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 //colocar onde está na pasta
-namespace Atacadista.Controller
+namespace Varejo.Controller
 {
     [ApiController]
-    [Route("api/item")]
+    [Route("api/user")]
     public class UserControler : ControllerBase
     {
 
@@ -32,7 +33,7 @@ namespace Atacadista.Controller
         }
 
         [HttpGet]
-        [Route("buscar/{nome}")]
+        [Route("buscar/produto")]
         public IActionResult Buscar([FromRoute] string produto)
         {
             for (int i = 0; i < itens.Count; i++)
@@ -46,30 +47,49 @@ namespace Atacadista.Controller
         }
 
 
-        /*
-
-                [HttpPut]
-                [Route("buscar/Alterar")]
-                public IActionResult Alterar([FromRoute] string produto)
-                {
-                    verificar no git do prof metodo.
-                }
-
-
-                [HttpPost]
-                [Route("buscar/deletar")]
-                public IActionResult Deletar([FromBody] Item item)
-                {
-                verificar no git do prof metodo utilizado
-                    item -= item;
-                    return Delet("", item);
-
-                }
+        // [Route("deletar/prodruto")]
+        // [HttpDelete]
+        // public IActionResult Deletar([FromRoute] string item)
+        // {
+        //     Item item = item.FirstOrDefault
+        //     (
+        //         it => it.Produto.Equals(produto)
+        //     );
+        //     if (item != null)
+        //     {
+        //         item.Remove(item);
+        //         return Ok(item);
+        //     }
+        //     return NotFound();
+        // }
 
 
-              falta criar criar um relacionamento de dados → 
-              Exemplo: TV = eletronico 
-                       Batom = beleza */
+        // [Route("alterar")]
+        // [HttpPatch]
+        // public IActionResult Alterar([FromBody] Item item)
+        // {
+        //     Item itemProcurado = item.FirstOrDefault
+        //     (
+        //         it => it.Produto.Equals(item.Produto)
+        //     );
+        //     if (itemProcurado != null)
+        //     {
+        //         itemProcurado.Produto = item.Produto;
+        //         return Ok(item);
+        //     }
+        //     return NotFound();
+        // }
+
+        /* Baixar SQLlite
+        versão utilizada no programa  --version 5.0.4
+        https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite/5.0.4
+        comanda para colcoar no terminak ↓↓
+        dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 5.0.4
+
+        site do sqlite 
+        https://sqlitebrowser.org/
+
+        */
 
 
     }
