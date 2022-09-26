@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\AulaQuinta\\Atacadista\\Atacadista.csproj": {}
+    "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj": {}
   },
   "projects": {
-    "C:\\AulaQuinta\\Atacadista\\Atacadista.csproj": {
+    "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\AulaQuinta\\Atacadista\\Atacadista.csproj",
+        "projectUniqueName": "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj",
         "projectName": "Atacadista",
-        "projectPath": "C:\\AulaQuinta\\Atacadista\\Atacadista.csproj",
-        "packagesPath": "C:\\Users\\vito_\\.nuget\\packages\\",
-        "outputPath": "C:\\AulaQuinta\\Atacadista\\obj\\",
+        "projectPath": "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj",
+        "packagesPath": "C:\\Users\\annab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vito_\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\annab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,6 +38,16 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
