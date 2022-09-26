@@ -1,16 +1,17 @@
 using System;
+
 namespace Atacadista.Models
 {
-    public class Item
+    public class Itens
     {
 
-        public Item()
-        {
-            CriadoEm = DateTime.Now;
-        }
-
+       public Itens() => CriadoEm = DateTime.Now;
+        public int ItensId {get; set; }
         public string Produto { get; set; }
-        public double Preco { get; set; }
+        public string Codigo {get; set; }
+        public string Marca {get; set; }
+        public string Modelo {get; set; }
+        public int Preco { get; set; }
         public int Quantidade { get; set; }
         public DateTime CriadoEm { get; set; }
 

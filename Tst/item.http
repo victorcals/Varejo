@@ -1,3 +1,36 @@
-### Listar 
+### Listar itens
 GET https://localhost:5001/api/item/listar
+
+### Buscar item/produto
+GET https://localhost:5001/api/item/buscar/123
+
+### Cadastrar um item/produto
+POST https://localhost:5001/api/item/cadastrar
+Content-Type: application/json
+
+{
+    "Produto" : "Celular",
+    "Codigo" : "1234",
+    "Preco" : 1870,
+    "Marca" : "Motorola",
+    "Modelo" : "Gplay",    
+    "Quantidade" : "26"
+}
+
+### Alterar um item/produto
+PATCH https://localhost:5001/api/item/alterar
+Content-Type: application/json
+
+{
+    "ItensId" : "2",
+    "Produto" : "Mouse",
+    "Codigo" : "2345",
+    "Preco" : 1000,
+    "Marca" : "Razer",
+    "Modelo" : "Teste",    
+    "Quantidade" : "5"
+}
+
+### Deletar um item/produto/
+DELETE https://localhost:5001/api/item/deletar/1
 
