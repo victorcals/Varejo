@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 //colocar onde está na pasta
 namespace Varejo.Controller
-{
+{//teste
     [ApiController]
     [Route("api/user")]
     public class UserControler : ControllerBase
