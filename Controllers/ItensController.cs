@@ -35,7 +35,7 @@ namespace Atacadista.Controllers
 
         }
 
-        [Route("buscar/produto")]
+        [Route("buscar/{codigo}")]
         [HttpGet]
         public IActionResult Buscar([FromRoute] string Codigo)
         {
@@ -83,7 +83,7 @@ namespace Atacadista.Controllers
         dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 5.0.4
 
         site do sqlite 
-        https://sqlitebrowser.org/
+        https://sqlitebrowser.org/ teste
 
         */
 

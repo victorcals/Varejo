@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj": {}
+    "C:\\Users\\annab\\OneDrive\\Documentos\\atacadao\\varejo\\Atacadista.csproj": {}
   },
   "projects": {
-    "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj": {
+    "C:\\Users\\annab\\OneDrive\\Documentos\\atacadao\\varejo\\Atacadista.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj",
+        "projectUniqueName": "C:\\Users\\annab\\OneDrive\\Documentos\\atacadao\\varejo\\Atacadista.csproj",
         "projectName": "Atacadista",
-        "projectPath": "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj",
+        "projectPath": "C:\\Users\\annab\\OneDrive\\Documentos\\atacadao\\varejo\\Atacadista.csproj",
         "packagesPath": "C:\\Users\\annab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\obj\\",
+        "outputPath": "C:\\Users\\annab\\OneDrive\\Documentos\\atacadao\\varejo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\annab\\AppData\\Roaming\\NuGet\\NuGet.Config"

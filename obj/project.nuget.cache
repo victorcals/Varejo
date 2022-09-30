@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TwcliOHnw2V4Nv2EgzzcgsHxe6Obvq/QSFJGRrDbutz3ELNReHGc17EhNBPbp+YfrVfzjOCmaJ4W4d8CuGiWmw==",
+  "dgSpecHash": "DZvVN3RvBRGxs8Vsl6mf89xSV3F/fry6tyjCWmwcb0ythjFWPFL1x9x7L/y3GJCYvEe444C4OUNhbqlD/TTKhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\annab\\OneDrive\\Documentos\\quintaProject\\Atacadista\\Atacadista.csproj",
+  "projectFilePath": "C:\\Users\\annab\\OneDrive\\Documentos\\atacadao\\varejo\\Atacadista.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\annab\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\annab\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
