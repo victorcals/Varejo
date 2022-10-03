@@ -1,0 +1,30 @@
+### Listar estoque
+GET https://localhost:5001/api/estoque/listar
+ 
+### Buscar estoque
+GET https://localhost:5001/api/estoque/buscar/2345
+
+### Cadastrar estoque
+POST https://localhost:5001/api/estoque/cadastrar
+Content-Type: application/json
+
+{
+  "Produto" : "Teclado",
+  "Codigo" : "582",
+  "EstoqueAtual" : "7"
+}
+
+### Alterar estoque
+PATCH https://localhost:5001/api/estoque/alterar
+Content-Type: application/json
+
+{
+  "ItensId" : "1",
+  "Produto" : "Teclado",
+  "Codigo" : "582",
+  "EstoqueAtual" : "7"
+}
+
+### Deletar estoque
+DELETE https://localhost:5001/api/estoque/deletar/1
+
