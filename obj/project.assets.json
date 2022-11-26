@@ -1255,19 +1255,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gabri\\.nuget\\packages\\": {}
+    "C:\\Users\\annab\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Quintas\\Varejo\\Atacadista.csproj",
+      "projectUniqueName": "C:\\Users\\annab\\Downloads\\estudoprova\\Varejo\\Atacadista.csproj",
       "projectName": "Atacadista",
-      "projectPath": "C:\\Quintas\\Varejo\\Atacadista.csproj",
-      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Quintas\\Varejo\\obj\\",
+      "projectPath": "C:\\Users\\annab\\Downloads\\estudoprova\\Varejo\\Atacadista.csproj",
+      "packagesPath": "C:\\Users\\annab\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\annab\\Downloads\\estudoprova\\Varejo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\annab\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
